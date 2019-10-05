@@ -1,0 +1,36 @@
+{
+  "name": "ntpokemon",
+  "version": "0.1.0",
+  "description": "Name That Pokemon Game!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && mocha --exit",
+    "start": "node server",
+    "build": "parcel build public/index.html",
+    "watch": "NODE_ENV=production parcel watch public/src/index.html"
+  },
+  "keywords": [
+    "Name",
+    "That",
+    "Pokemon",
+    "API",
+    "Game"
+  ],
+  "author": "GianFiyah, John Park (prkcder)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "cypress": "^3.4.1",
+    "express": "^4.17.1",
+    "mocha": "^6.2.1",
+    "parcel": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  }
+}
